@@ -26,3 +26,11 @@ Following these instructions, you will learn how to read information from the bl
 ``sed -i 's/YOUR WALLET ADDRESS/``0x14d63Bfa46d8C91fbf16fE233316d5A265830b24``/g' /home/npc/scripts/drip_balance.js``
 
 ```node /home/npc/scripts/drip_balance.js```
+
+7. Run the script "faucet.js" to find the drip faucet stats of a wallet, change my wallet address for the wallet you want to check.
+
+```curl -s "https://raw.githubusercontent.com/0mnipotent/npc_tutorial/main/faucet.js" > /home/npc/scripts/faucet.js```
+
+``sed -i 's/YOUR WALLET ADDRESS/``0x14d63Bfa46d8C91fbf16fE233316d5A265830b24``/g' /home/npc/scripts/faucet.js``
+
+```node /home/npc/scripts/faucet.js```
