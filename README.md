@@ -1,4 +1,4 @@
-Following these instructions, you will learn how to interact with the blockchain.
+Following these instructions, you will learn how to read information from the blockchain.
 
 1. Create a CentOS 7 VM. CentOS7 ISO can be downloaded from http://isoredirect.centos.org/centos/7/isos/x86_64/ or you can use my referral link with Vultr to purchase a cheap $5/month CentOS7 VM (https://www.vultr.com/?ref=7185697)
 2. After installing/purchasing a CentOS7 VM, run the below command to update your system:
