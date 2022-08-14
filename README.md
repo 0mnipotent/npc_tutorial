@@ -8,6 +8,7 @@ Following these instructions, you will learn how to interact with the blockchain
 3. Run the below commands to install some additional components:
 
 ```yum install epel-release```
+
 ```yum install wget vim screen -y```
 
 4. Run the script "centos_install_node.sh" to install NodeJS & NPM.
@@ -21,5 +22,7 @@ Following these instructions, you will learn how to interact with the blockchain
 6. Run the script "check_drip_balance.js" to find the drip balance of a wallet, change my wallet address for the wallet you want to check.
 
 ```curl -s "https://raw.githubusercontent.com/0mnipotent/npc_tutorial/main/check_drip_balance.js" > /home/npc/scripts/drip_balance.js```
+
 ``sed -i 's/YOUR WALLET ADDRESS/``0x14d63Bfa46d8C91fbf16fE233316d5A265830b24``/g' /home/npc/scripts/drip_balance.js``
+
 ```node /home/npc/scripts/drip_balance.js```
